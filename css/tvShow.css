@@ -1,0 +1,143 @@
+#logoBit {
+  margin-left: 300px; }
+
+#inputField {
+  margin-right: 300px; }
+
+img {
+  width: 75%;
+  float: right; }
+
+#showDetails {
+  padding-left: 25%;
+  padding-right: 25%; }
+
+p {
+  padding-left: 25%; }
+
+body {
+  padding-bottom: 120px; }
+
+li {
+  font-weight: normal;
+  font-size: 16px; }
+
+.ulCrew {
+  text-align: center; }
+
+.ulCrew li {
+  font-size: 16px;
+  font-weight: normal; }
+
+.ulAkas {
+  text-align: center; }
+
+.ulAkas li {
+  font-size: 16px;
+  font-weight: normal; }
+
+.ulEpisodes {
+  text-align: center; }
+
+.ulEpisodes li {
+  font-size: 16px;
+  font-weight: normal; }
+
+#searchOptions {
+  display: none;
+  position: absolute;
+  top: 80%;
+  width: 300px;
+  list-style-type: none;
+  cursor: pointer;
+  z-index: 999;
+  background-color: white; }
+
+input:hover {
+  cursor: pointer; }
+
+form:hover > #searchOptions {
+  display: block; }
+
+#searchOptions li:hover {
+  background-color: #ccc;
+  transition: all 0.3s ease-in-out; }
+
+#searchOptions li {
+  position: relative;
+  padding-left: 10px;
+  border-bottom: 1px solid gray; }
+
+#searchOptions li:hover {
+  background-color: gray; }
+
+#searchOptions li:last-child {
+  border: none; }
+
+aside {
+  float: right;
+  height: fit-content; }
+
+aside ul li {
+  list-style-type: none; }
+
+#h3Seasons {
+  height: fit-content; }
+
+#h3Cast {
+  height: fit-content; }
+
+.seasons {
+  height: fit-content; }
+
+.olCrew li {
+  border: 1px solid black;
+  border-bottom: none; }
+
+.olCrew li:last-child {
+  border-bottom: 1px solid black; }
+
+.olAkas li {
+  border: 1px solid black;
+  border-bottom: none; }
+
+.olAkas li:last-child {
+  border-bottom: 1px solid black; }
+
+.olEpisodes li {
+  border: 1px solid black;
+  border-bottom: none; }
+
+.olEpisodes li:last-child {
+  border-bottom: 1px solid black; }
+
+.buttons {
+  margin-left: 1%; }
+
+.gallery {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.show {
+  display: inline-block;
+  text-align: center; }
+
+.show img {
+  float: none; }
+
+.show img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer; }
+
+@media only screen and (max-width: 1537px) and (min-width: 1100px) {
+  .show img {
+    width: 300px; } }
+@media only screen and (max-width: 1099px) and (min-width: 768px) {
+  .show img {
+    width: 200px; } }
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  .show img {
+    width: 100px; } }
+
+/*# sourceMappingURL=tvShow.css.map */

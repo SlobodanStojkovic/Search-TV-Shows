@@ -1,0 +1,72 @@
+body {
+  padding-bottom: 100px; }
+
+#logoBit {
+  margin-left: 300px; }
+
+#inputField {
+  margin-right: 300px; }
+
+.gallery {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.show {
+  display: inline-block;
+  text-align: center; }
+
+a {
+  display: block; }
+
+.show img {
+  width: 400px;
+  cursor: pointer; }
+
+form {
+  position: relative; }
+
+main h1 {
+  padding-bottom: 30px; }
+
+#searchOptions {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 300px;
+  list-style-type: none;
+  cursor: pointer;
+  z-index: 999;
+  background-color: white; }
+
+input:hover {
+  cursor: pointer; }
+
+form:hover > #searchOptions {
+  display: block; }
+
+#searchOptions li:hover {
+  background-color: #ccc;
+  transition: all 0.3s ease-in-out; }
+
+#searchOptions li {
+  position: relative;
+  padding-left: 10px;
+  border-bottom: 1px solid gray; }
+
+#searchOptions li:hover {
+  background-color: gray; }
+
+#searchOptions li:last-child {
+  border: none; }
+
+@media only screen and (max-width: 1537px) and (min-width: 1100px) {
+  .show img {
+    width: 300px; } }
+@media only screen and (max-width: 1099px) and (min-width: 768px) {
+  .show img {
+    width: 200px; } }
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  .show img {
+    width: 100px; } }
+
+/*# sourceMappingURL=style.css.map */
